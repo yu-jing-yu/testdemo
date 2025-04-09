@@ -13,17 +13,17 @@ const Videos = () => {
   const videos = [
     {
       id: 1,
-      title: '大自然的奇妙瞬间',
-      description: '展示地球上最令人惊叹的自然景观',
-      url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-      thumbnail: 'https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg'
+      title: '案例1',
+      description: '案例1',
+      url: '/videos/a.mp4',
+      thumbnail: '/videos/a.jpg'
     },
     {
       id: 2,
-      title: '海洋生物探索',
-      description: '深海世界的神秘面纱',
-      url: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-      thumbnail: 'https://storage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg'
+      title: '案例2',
+      description: '案例2',
+      url: '/videos/b.mp4',
+      thumbnail: '/videos/b.jpg'
     }
   ];
 

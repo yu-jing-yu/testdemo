@@ -18,7 +18,7 @@ const Home = () => {
           <video
             controls
             style={{ maxWidth: '100%', height: 'auto', marginBottom: '20px' }}
-            src="/src/assets/234_1744177163.mp4"
+            src="/videos/234_1744177163.mp4"
           />
           <Link to="/videos">
             <Typography.Paragraph

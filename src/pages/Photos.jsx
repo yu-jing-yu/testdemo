@@ -10,17 +10,17 @@ const Photos = () => {
   const photos = [
     {
       id: 1,
-      title: '示例图片 1',
-      description: '这是一个示例图片描述',
-      url: 'https://via.placeholder.com/400x300',
-      thumbnail: 'https://via.placeholder.com/300x200'
+      title: '案例1',
+      description: '案例1',
+      url: '/videos/c.jpg',
+      thumbnail: '/videos/c.jpg'
     },
     {
       id: 2,
-      title: '示例图片 2',
-      description: '这是另一个示例图片描述',
-      url: 'https://via.placeholder.com/400x300',
-      thumbnail: 'https://via.placeholder.com/300x200'
+      title: '案例2',
+      description: '案例2',
+      url: '/videos/d.jpg',
+      thumbnail: '/videos/d.jpg'
     }
   ];
 
