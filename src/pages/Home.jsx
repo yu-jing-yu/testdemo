@@ -24,7 +24,7 @@ const Home = () => {
             <Typography.Paragraph
               style={{ fontSize: '18px', cursor: 'pointer', color: '#1890ff' }}
             >
-              点击观看更多精彩视频案例 →
+              点击观看更多视频案例 →
             </Typography.Paragraph>
           </Link>
         </div>
