@@ -21,6 +21,27 @@ const Photos = () => {
       description: '案例2',
       url: '/videos/d.jpg',
       thumbnail: '/videos/d.jpg'
+    },
+    {
+      id: 3,
+      title: '案例3',
+      description: '案例3',
+      url: '/videos/f.jpg',
+      thumbnail: '/videos/f.jpg'
+    },
+    {
+      id: 4,
+      title: '案例4',
+      description: '案例4',
+      url: '/videos/j.jpg',
+      thumbnail: '/videos/j.jpg'
+    },
+    {
+      id: 5,
+      title: '案例5',
+      description: '案例5',
+      url: '/videos/h.jpg',
+      thumbnail: '/videos/h.jpg'
     }
   ];
 
