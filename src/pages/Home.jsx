@@ -19,6 +19,7 @@ const Home = () => {
             controls
             style={{ maxWidth: '100%', height: 'auto', marginBottom: '20px' }}
             src="/videos/234_1744177163.mp4"
+            poster="/videos/WechatIMG256.jpg"
           />
           <Link to="/videos">
             <Typography.Paragraph
