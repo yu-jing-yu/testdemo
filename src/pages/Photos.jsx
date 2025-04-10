@@ -47,7 +47,7 @@ const Photos = () => {
 
   return (
     <Layout>
-      <Content style={{ padding: '50px' }}>
+      <Content style={{ padding: '15px' }}>
         <Title level={2} style={{ marginBottom: '30px' }}>图片展示</Title>
         <Row gutter={[24, 24]}>
           {photos.map(photo => (
@@ -59,6 +59,7 @@ const Photos = () => {
                     alt={photo.title}
                     src={photo.thumbnail}
                     preview={{ src: photo.url }}
+                    style={{ height: '200px', objectFit: 'cover' }}
                   />
                 }
               >

@@ -9,9 +9,9 @@ const { Title } = Typography;
 const Home = () => {
   return (
     <Layout className="home-container">
-      <Content style={{ padding: '50px' }}>
+      <Content style={{ padding: '15px' }}>
         <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <Title level={1} style={{ marginBottom: '30px' }}>产品专家签约集锦</Title>
+          <Title  style={{ marginBottom: '30px',fontSize:'30px' }}>产品专家签约集锦</Title>
         </div>
         
         <div style={{ marginBottom: '30px', textAlign: 'center' }}>
@@ -22,7 +22,7 @@ const Home = () => {
           />
           <Link to="/videos">
             <Typography.Paragraph
-              style={{ fontSize: '18px', cursor: 'pointer' }}
+              style={{ fontSize: '18px', cursor: 'pointer' ,color:'#ff5722'}}
             >
               点击观看更多视频案例 →
             </Typography.Paragraph>
@@ -54,8 +54,8 @@ const Home = () => {
             这是一个功在当代，利在外千秋善事，关乎中国以及世界人民的健康，符合当下老百姓以及国家趋势，大健康产业，未来5-10年正式崛起的高峰。你遇到了中国国粹，老祖宗留下的五千年中医药文化复兴，是做一件中国传统文化的传承，做一件能帮助他人的事业，产品会说话，不伤人脉，广结善缘，留德行给子孙的事业，是今生最大修行。
           </Typography.Paragraph>
         </div>
-        <Row gutter={[24, 24]} justify="center">
-          <Col xs={24} sm={12} md={8}>
+        <Row gutter={[24, 24]} justify="center" style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <Col xs={24} sm={12} md={12} lg={12}>
             <Link to="/videos">
               <Card hoverable>
                 <VideoCameraOutlined style={{ fontSize: '48px', color: '#ff5722' }} />
@@ -63,7 +63,7 @@ const Home = () => {
               </Card>
             </Link>
           </Col>
-          <Col xs={24} sm={12} md={8}>
+          <Col xs={24} sm={12} md={12} lg={12}>
             <Link to="/photos">
               <Card hoverable>
                 <PictureOutlined style={{ fontSize: '48px', color: '#ff5722' }} />
