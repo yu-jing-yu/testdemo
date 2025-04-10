@@ -22,7 +22,7 @@ const Home = () => {
           />
           <Link to="/videos">
             <Typography.Paragraph
-              style={{ fontSize: '18px', cursor: 'pointer', color: '#1890ff' }}
+              style={{ fontSize: '18px', cursor: 'pointer' }}
             >
               点击观看更多视频案例 →
             </Typography.Paragraph>
@@ -58,7 +58,7 @@ const Home = () => {
           <Col xs={24} sm={12} md={8}>
             <Link to="/videos">
               <Card hoverable>
-                <VideoCameraOutlined style={{ fontSize: '48px', color: '#1890ff' }} />
+                <VideoCameraOutlined style={{ fontSize: '48px', color: '#ff5722' }} />
                 <Title level={3} style={{ marginTop: '16px' }}>视频案例</Title>
               </Card>
             </Link>
@@ -66,7 +66,7 @@ const Home = () => {
           <Col xs={24} sm={12} md={8}>
             <Link to="/photos">
               <Card hoverable>
-                <PictureOutlined style={{ fontSize: '48px', color: '#52c41a' }} />
+                <PictureOutlined style={{ fontSize: '48px', color: '#ff5722' }} />
                 <Title level={3} style={{ marginTop: '16px' }}>图片案例</Title>
               </Card>
             </Link>

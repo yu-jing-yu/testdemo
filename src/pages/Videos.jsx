@@ -16,35 +16,35 @@ const Videos = () => {
       title: '案例1',
       description: '案例1',
       url: '/videos/a.mp4',
-      thumbnail: '/videos/a.jpg'
+      thumbnail: '/videos/athu.jpg'
     },
     {
       id: 2,
       title: '案例2',
       description: '案例2',
       url: '/videos/b.mp4',
-      thumbnail: '/videos/b.jpg'
+      thumbnail: '/videos/bthu.jpg'
     },
     {
       id: 3,
       title: '案例3',
       description: '案例3',
-      url: '/videos/e.mp4',
-      thumbnail: '/videos/e.jpg'
+      url: '/videos/aa.mp4',
+      thumbnail: '/videos/aathu.jpg'
     },
     {
       id: 4,
       title: '案例4',
       description: '案例4',
       url: '/videos/g.mp4',
-      thumbnail: '/videos/g.jpg'
+      thumbnail: '/videos/gthu.jpg'
     },
     {
       id: 5,
       title: '案例5',
       description: '案例5',
       url: '/videos/i.mp4',
-      thumbnail: '/videos/i.jpg'
+      thumbnail: '/videos/ithu.jpg'
     }
   ];
 
